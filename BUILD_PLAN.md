@@ -17,20 +17,19 @@ Because of that, this plan includes a recommended implementation stack and a pro
 
 ## Recommended Stack
 Recommended default stack for this project:
-- Next.js
-- TypeScript
-- App Router
-- React
-- Tailwind CSS
-- Server actions or route handlers for form submission
-- Simple provider wrapper modules for Podio, email, SMS, and IDX integration points
+- WordPress
+- Custom theme or child theme
+- Custom page templates for seller-focused landing pages
+- Custom plugin or mu-plugin for lead handling and integrations
+- Advanced Custom Fields or native custom fields for editable content
+- Gravity Forms or a custom WordPress form workflow for valuation intake
 
 Why this stack:
-- Fast to scaffold and iterate
-- Strong fit for mobile-first marketing pages
-- Easy to separate UI, content, and integrations
-- Supports lightweight server-side form handling without a separate API project
-- Good path for future SEO, analytics, and landing page expansion
+- Easy for a real estate business to manage after launch
+- Strong fit for content-heavy trust-building pages
+- Mature ecosystem for forms, SEO, CRM, and IDX integrations
+- Good admin experience for updating testimonials, page copy, and contact info
+- Practical path for blending marketing pages with lead workflows
 
 ## Major Unknowns To Keep As TODOs
 These should remain TODO placeholders until real values or vendor choices are provided:
@@ -60,103 +59,89 @@ Phase 1 is successful when:
 - Eric contact actions are visible and usable on mobile
 
 ## Recommended Initial File Structure
-Suggested scaffold if building with Next.js App Router:
+Suggested scaffold if building with WordPress:
 
 ```text
 /
-  app/
-    layout.tsx
-    page.tsx
-    thank-you/
-      page.tsx
-    search/
-      page.tsx
-    api/
-      leads/
-        route.ts
-  components/
-    home/
-      Hero.tsx
-      CredibilityStrip.tsx
-      Testimonials.tsx
-      OfferHighlights.tsx
-      SellerCta.tsx
-    lead-form/
-      HomeValuationForm.tsx
-      ThankYouCard.tsx
-    shared/
-      StickyContactBar.tsx
-      Section.tsx
-      Button.tsx
-      Input.tsx
-      Textarea.tsx
-  content/
-    site.ts
-    testimonials.ts
-    seller-offer.ts
-  lib/
-    validation/
-      lead.ts
-    integrations/
-      podio.ts
-      email.ts
-      sms.ts
-      idx.ts
-    leads/
-      submitLead.ts
-  public/
-    images/
-  styles/
-    globals.css
-  .env.example
+  wp-content/
+    themes/
+      eric-brown-realty/
+        style.css
+        functions.php
+        front-page.php
+        page-thank-you.php
+        page-search.php
+        header.php
+        footer.php
+        index.php
+        template-parts/
+          home/
+            hero.php
+            credibility-strip.php
+            testimonials.php
+            offer-highlights.php
+          shared/
+            sticky-contact-bar.php
+        assets/
+          css/
+            main.css
+          js/
+            main.js
+    plugins/
+      eric-lead-workflows/
+        eric-lead-workflows.php
+        includes/
+          class-lead-validator.php
+          class-lead-submitter.php
+          class-podio-integration.php
+          class-email-integration.php
+          class-sms-integration.php
+          class-idx-placeholder.php
+  docs/
+    ux/
   README.md
 ```
 
 ## Files To Create In Phase 1
 Core app scaffold:
-- `package.json`
-- `tsconfig.json`
-- `next.config.js` or `next.config.ts`
-- `tailwind.config.ts`
-- `postcss.config.js`
-- `.env.example`
+- `wp-content/themes/eric-brown-realty/style.css`
+- `wp-content/themes/eric-brown-realty/functions.php`
+- `wp-content/themes/eric-brown-realty/index.php`
+- `wp-content/themes/eric-brown-realty/header.php`
+- `wp-content/themes/eric-brown-realty/footer.php`
 
 App routes:
-- `app/layout.tsx`
-- `app/page.tsx`
-- `app/thank-you/page.tsx`
-- `app/search/page.tsx`
-- `app/api/leads/route.ts`
+- `wp-content/themes/eric-brown-realty/front-page.php`
+- `wp-content/themes/eric-brown-realty/page-thank-you.php`
+- `wp-content/themes/eric-brown-realty/page-search.php`
 
 Homepage and form components:
-- `components/home/Hero.tsx`
-- `components/home/CredibilityStrip.tsx`
-- `components/home/Testimonials.tsx`
-- `components/home/OfferHighlights.tsx`
-- `components/lead-form/HomeValuationForm.tsx`
-- `components/lead-form/ThankYouCard.tsx`
-- `components/shared/StickyContactBar.tsx`
+- `wp-content/themes/eric-brown-realty/template-parts/home/hero.php`
+- `wp-content/themes/eric-brown-realty/template-parts/home/credibility-strip.php`
+- `wp-content/themes/eric-brown-realty/template-parts/home/testimonials.php`
+- `wp-content/themes/eric-brown-realty/template-parts/home/offer-highlights.php`
+- `wp-content/themes/eric-brown-realty/template-parts/shared/sticky-contact-bar.php`
 
 Content/config files:
-- `content/site.ts`
-- `content/testimonials.ts`
-- `content/seller-offer.ts`
+- WordPress page content
+- WordPress custom fields
+- Theme options or plugin settings for contact details and seller offers
 
 Logic and integration placeholders:
-- `lib/validation/lead.ts`
-- `lib/leads/submitLead.ts`
-- `lib/integrations/podio.ts`
-- `lib/integrations/email.ts`
-- `lib/integrations/sms.ts`
-- `lib/integrations/idx.ts`
+- `wp-content/plugins/eric-lead-workflows/eric-lead-workflows.php`
+- `wp-content/plugins/eric-lead-workflows/includes/class-lead-validator.php`
+- `wp-content/plugins/eric-lead-workflows/includes/class-lead-submitter.php`
+- `wp-content/plugins/eric-lead-workflows/includes/class-podio-integration.php`
+- `wp-content/plugins/eric-lead-workflows/includes/class-email-integration.php`
+- `wp-content/plugins/eric-lead-workflows/includes/class-sms-integration.php`
+- `wp-content/plugins/eric-lead-workflows/includes/class-idx-placeholder.php`
 
 ## Files Likely To Be Edited Later
 As the build expands, these will likely be updated:
-- `app/page.tsx`
-- `content/site.ts`
-- `content/testimonials.ts`
-- `lib/leads/submitLead.ts`
-- `.env.example`
+- `wp-content/themes/eric-brown-realty/front-page.php`
+- `wp-content/themes/eric-brown-realty/functions.php`
+- `wp-content/themes/eric-brown-realty/assets/css/main.css`
+- `wp-content/plugins/eric-lead-workflows/includes/class-lead-submitter.php`
 - `README.md`
 
 ## Phase 1 Detailed Scope
@@ -194,7 +179,7 @@ Recommended validation:
 - Keep validation messages simple and mobile-friendly
 
 Submission behavior:
-- Post form data to a single lead intake function
+- Post form data through a WordPress form handler, AJAX endpoint, or plugin action
 - Log the submission for development visibility
 - Call integration placeholder methods in a predictable order
 
@@ -212,7 +197,7 @@ The thank-you state can be:
 - An inline success state inside the form
 
 Recommended default:
-- Redirect to `/thank-you`
+- Redirect to the WordPress thank-you page
 
 Why:
 - Easier to measure conversions later
@@ -249,19 +234,25 @@ Each module should:
 - Return a mocked or no-op result in development
 - Include TODO comments for credentials, provider setup, and field mapping
 
+In WordPress terms, these can be:
+- Plugin classes
+- Service functions
+- Action-hooked handlers
+- Form plugin feed integrations with custom extension points
+
 ## Phase 1 Implementation Sequence
 Recommended build order:
 
-1. Scaffold the Next.js app with TypeScript and Tailwind
-2. Create shared design primitives and global styles
-3. Build the homepage layout and sections
-4. Build the valuation form UI and validation
-5. Add lead intake route or server action
-6. Add `submitLead` orchestration logic
-7. Add integration placeholder modules
-8. Add thank-you route
+1. Set up the WordPress theme and plugin structure
+2. Create shared theme styles and layout partials
+3. Build the homepage template and seller-focused sections
+4. Build the valuation form and validation flow
+5. Add the lead intake handler in the custom plugin
+6. Add lead orchestration logic
+7. Add integration placeholder classes
+8. Add the thank-you page template
 9. Add sticky mobile call/text bar
-10. Add content/config files for easy copy updates
+10. Configure editable content fields or page content areas
 11. Smoke test the complete form flow
 
 ## Phase 2
@@ -320,25 +311,27 @@ Definition of done:
 
 ## Technical Notes
 - Keep content separate from presentation where possible
-- Keep lead processing centralized in one orchestration module
-- Avoid wiring provider-specific logic directly into UI components
+- Keep lead processing centralized in one plugin orchestration module
+- Avoid wiring provider-specific logic directly into theme templates
 - Add TODO comments at every external dependency boundary
-- Prefer simple typed payloads over premature abstractions
+- Prefer simple lead data structures over premature abstractions
+- Keep theme responsibilities focused on rendering and UX
+- Keep plugin responsibilities focused on forms, integrations, and workflow logic
 
 ## Suggested Lead Type
 Suggested initial lead shape:
 
-```ts
-type SellerLead = {
-  firstName: string;
-  lastName: string;
-  email: string;
-  phone: string;
-  propertyAddress: string;
-  notes?: string;
-  source: string;
-  createdAt: string;
-};
+```php
+$seller_lead = [
+    'first_name' => '',
+    'last_name' => '',
+    'email' => '',
+    'phone' => '',
+    'property_address' => '',
+    'notes' => '',
+    'source' => '',
+    'created_at' => '',
+];
 ```
 
 ## Final Recommendation
