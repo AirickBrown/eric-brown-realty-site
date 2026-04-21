@@ -1,0 +1,109 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 2116 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(# Homepage Wireframe Spec) Tj T*`n() Tj T*`n(## Document Purpose) Tj T*`n(This document is the PDF-friendly wireframe and content specification for the homepage.) Tj T*`n(It is intended to guide visual review before design or development begins.) Tj T*`n() Tj T*`n(## Page Summary) Tj T*`n(- Page name: Homepage) Tj T*`n(- Primary audience: Homeowners thinking about selling) Tj T*`n(- Secondary audience: Buyers) Tj T*`n(- Primary goal: Generate seller leads) Tj T*`n(- Primary CTA: `Get My Home Value`) Tj T*`n(- Secondary CTA: `Call or Text Eric`) Tj T*`n() Tj T*`n(## Core Positioning) Tj T*`n(Eric helps homeowners find the best way to sell based on their motivation, timeline,) Tj T*`n(and pricing goals. He may help them list traditionally or explore a direct purchase) Tj T*`n(path, depending on what best fits their situation.) Tj T*`n() Tj T*`n(## Success Criteria) Tj T*`n(- The page feels trustworthy within the first screen) Tj T*`n(- Sellers immediately understand that Eric is help-first, not pushy) Tj T*`n(- The valuation CTA is obvious and repeated) Tj T*`n(- The direct-contact path is easy on mobile) Tj T*`n(- Buyer content remains secondary) Tj T*`n() Tj T*`n(---) Tj T*`n() Tj T*`n(## Wireframe Overview) Tj T*`n() Tj T*`n(### Mobile-First Section Order) Tj T*`n(1. Hero) Tj T*`n(2. Valuation CTA) Tj T*`n(3. Why Work With Eric) Tj T*`n(4. Selling Paths) Tj T*`n(5. Offer Highlights) Tj T*`n(6. Testimonials) Tj T*`n(7. Simple Process) Tj T*`n(8. Direct Contact) Tj T*`n(9. Footer) Tj T*`n() Tj T*`n(### Desktop Structure) Tj T*`n(- Sticky top navigation) Tj T*`n(- Hero in two columns) Tj T*`n(- Main content in stacked full-width sections) Tj T*`n(- Repeated CTA placement every 2 to 3 sections) Tj T*`n() Tj T*`n(---) Tj T*`n() Tj T*`n(## Section 1: Hero) Tj T*`n() Tj T*`n(### Purpose) Tj T*`n(Establish trust immediately and make the seller-focused value proposition clear.) Tj T*`n() Tj T*`n(### Wireframe) Tj T*`n(```text) Tj T*`n(+--------------------------------------------------+) Tj T*`n(| LOGO                            MENU / NAV       |) Tj T*`nET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2754 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(+--------------------------------------------------+) Tj T*`n(| HEADLINE                                         |) Tj T*`n(| Get clarity on the best way to sell your home    |) Tj T*`n(|                                                  |) Tj T*`n(| SUPPORTING COPY                                  |) Tj T*`n(| Work with an agent who looks at your goals,      |) Tj T*`n(| timeline, and options before recommending        |) Tj T*`n(| a path forward.                                  |) Tj T*`n(|                                                  |) Tj T*`n(| [ Get My Home Value ]   [ Call or Text Eric ]    |) Tj T*`n(|                                                  |) Tj T*`n(| Trust line: listing help, direct-sale guidance,  |) Tj T*`n(| and practical next steps                         |) Tj T*`n(|                                                  |) Tj T*`n(| IMAGE: Eric portrait or polished local-home shot |) Tj T*`n(+--------------------------------------------------+) Tj T*`n(```) Tj T*`n() Tj T*`n(### Content Requirements) Tj T*`n(- One clear seller-focused headline) Tj T*`n(- One short paragraph of supporting copy) Tj T*`n(- Two CTA buttons) Tj T*`n(- One trust support line) Tj T*`n(- One hero image) Tj T*`n() Tj T*`n(### Layout Notes) Tj T*`n(- Mobile: stacked layout with CTA visible without extra scrolling) Tj T*`n(- Desktop: text left, image right) Tj T*`n(- Buttons should be large and easy to tap) Tj T*`n() Tj T*`n(### Approval Check) Tj T*`n(- The page immediately feels seller-focused) Tj T*`n(- The CTA is unmistakable) Tj T*`n(- The tone feels calm, helpful, and professional) Tj T*`n() Tj T*`n(---) Tj T*`n() Tj T*`n(## Section 2: Valuation CTA) Tj T*`n() Tj T*`n(### Purpose) Tj T*`n(Drive the main conversion action for homeowners who want clarity on value.) Tj T*`n() Tj T*`n(### Wireframe) Tj T*`n(```text) Tj T*`n(+--------------------------------------------------+) Tj T*`n(| SECTION HEADING                                  |) Tj T*`n(| What is your home worth right now?               |) Tj T*`n(|                                                  |) Tj T*`n(| SHORT SUPPORTING COPY                            |) Tj T*`n(| Get clarity before deciding how to move forward. |) Tj T*`n(|                                                  |) Tj T*`n(| [ Short form or CTA button area ]                |) Tj T*`n(|                                                  |) Tj T*`n(| BENEFITS                                         |) Tj T*`n(| - Know your home's current value                 |) Tj T*`n(| - Understand your selling options                |) Tj T*`n(| - Start with a clear next step                   |) Tj T*`n(+--------------------------------------------------+) Tj T*`nET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2109 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(```) Tj T*`n() Tj T*`n(### Content Requirements) Tj T*`n(- Section heading) Tj T*`n(- 1 to 2 sentences of support copy) Tj T*`n(- Either a button or short form placeholder) Tj T*`n(- Three short benefit points) Tj T*`n() Tj T*`n(### Layout Notes) Tj T*`n(- Use stronger visual contrast than surrounding sections) Tj T*`n(- If form-led, keep the fields minimal in the concept) Tj T*`n() Tj T*`n(### Approval Check) Tj T*`n(- This section makes the main conversion path feel simple) Tj T*`n(- It does not feel overwhelming or sales-heavy) Tj T*`n() Tj T*`n(---) Tj T*`n() Tj T*`n(## Section 3: Why Work With Eric) Tj T*`n() Tj T*`n(### Purpose) Tj T*`n(Show how Eric is different from a typical one-size-fits-all agent approach.) Tj T*`n() Tj T*`n(### Wireframe) Tj T*`n(```text) Tj T*`n(+--------------------------------------------------+) Tj T*`n(| SECTION HEADING                                  |) Tj T*`n(| Help built around your situation                 |) Tj T*`n(|                                                  |) Tj T*`n(| [ Card 1 ]    [ Card 2 ]    [ Card 3 ]           |) Tj T*`n(| Motivation    Timeline      Pricing / Fit        |) Tj T*`n(|                                                  |) Tj T*`n(| Short supportive line under cards                |) Tj T*`n(+--------------------------------------------------+) Tj T*`n(```) Tj T*`n() Tj T*`n(### Content Requirements) Tj T*`n(- One section heading) Tj T*`n(- Three differentiator cards) Tj T*`n(- One short supporting sentence below the cards) Tj T*`n() Tj T*`n(### Card Content) Tj T*`n(- Eric looks at your motivation) Tj T*`n(- Eric considers your timeline) Tj T*`n(- Eric helps evaluate the right pricing and sale path) Tj T*`n() Tj T*`n(### Layout Notes) Tj T*`n(- Mobile: cards stack vertically) Tj T*`n(- Desktop: cards can sit in one row) Tj T*`n() Tj T*`n(### Approval Check) Tj T*`n(- Eric's differentiator is easy to understand) Tj T*`n(- The message feels service-oriented rather than self-promotional) Tj T*`n() Tj T*`n(---) Tj T*`n() Tj T*`n(## Section 4: Selling Paths) Tj T*`n() Tj T*`nET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 2355 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(### Purpose) Tj T*`n(Help sellers understand that more than one path may be available.) Tj T*`n() Tj T*`n(### Wireframe) Tj T*`n(```text) Tj T*`n(+--------------------------------------------------+) Tj T*`n(| SECTION HEADING                                  |) Tj T*`n(| More than one way to move forward                |) Tj T*`n(|                                                  |) Tj T*`n(| SHORT INTRO COPY                                 |) Tj T*`n(|                                                  |) Tj T*`n(| [ Path Card ]            [ Path Card ]           |) Tj T*`n(| List Your Home           Explore a Direct Sale   |) Tj T*`n(|                                                  |) Tj T*`n(| Short explanation         Short explanation      |) Tj T*`n(+--------------------------------------------------+) Tj T*`n(```) Tj T*`n() Tj T*`n(### Content Requirements) Tj T*`n(- One heading) Tj T*`n(- One short intro paragraph) Tj T*`n(- Two path cards) Tj T*`n() Tj T*`n(### Messaging Notes) Tj T*`n(- Keep both options clear and respectful) Tj T*`n(- Do not over-explain the direct-sale option yet) Tj T*`n(- Focus on clarity, not complexity) Tj T*`n() Tj T*`n(### Approval Check) Tj T*`n(- Sellers can quickly understand the options-based approach) Tj T*`n(- The page still feels focused and not fragmented) Tj T*`n() Tj T*`n(---) Tj T*`n() Tj T*`n(## Section 5: Offer Highlights) Tj T*`n() Tj T*`n(### Purpose) Tj T*`n(Support trust and conversion with practical seller support options.) Tj T*`n() Tj T*`n(### Wireframe) Tj T*`n(```text) Tj T*`n(+--------------------------------------------------+) Tj T*`n(| SECTION HEADING                                  |) Tj T*`n(| Extra support when it helps                      |) Tj T*`n(|                                                  |) Tj T*`n(| [ Offer ]     [ Offer ]     [ Offer ]            |) Tj T*`n(| Handyman      Airbnb stay   Closing incentives   |) Tj T*`n(+--------------------------------------------------+) Tj T*`n(```) Tj T*`n() Tj T*`n(### Content Requirements) Tj T*`n(- Handyman support) Tj T*`n(- Airbnb stay option if needed) Tj T*`n(- Closing incentives where appropriate) Tj T*`n() Tj T*`n(### Messaging Notes) Tj T*`n(- Keep wording conditional and careful) Tj T*`n(- Frame these as examples of support, not guaranteed promises) Tj T*`nET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 2100 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+() Tj T*`n(### Approval Check) Tj T*`n(- The offers feel practical and credible) Tj T*`n(- The section adds value without distracting from the main CTA) Tj T*`n() Tj T*`n(---) Tj T*`n() Tj T*`n(## Section 6: Testimonials) Tj T*`n() Tj T*`n(### Purpose) Tj T*`n(Build confidence through proof from past clients.) Tj T*`n() Tj T*`n(### Wireframe) Tj T*`n(```text) Tj T*`n(+--------------------------------------------------+) Tj T*`n(| SECTION HEADING                                  |) Tj T*`n(| What clients appreciate about working with Eric  |) Tj T*`n(|                                                  |) Tj T*`n(| [ Testimonial Card ]                             |) Tj T*`n(| [ Testimonial Card ]                             |) Tj T*`n(| [ Testimonial Card ]                             |) Tj T*`n(+--------------------------------------------------+) Tj T*`n(```) Tj T*`n() Tj T*`n(### Content Requirements) Tj T*`n(- 2 to 4 testimonials) Tj T*`n(- Short section intro) Tj T*`n(- Client names or attribution format) Tj T*`n() Tj T*`n(### Layout Notes) Tj T*`n(- Keep readable spacing) Tj T*`n(- Avoid overly decorative quote styling) Tj T*`n() Tj T*`n(### Approval Check) Tj T*`n(- Testimonials strengthen trust) Tj T*`n(- The section feels professional and believable) Tj T*`n() Tj T*`n(---) Tj T*`n() Tj T*`n(## Section 7: Simple Process) Tj T*`n() Tj T*`n(### Purpose) Tj T*`n(Make the next steps feel easy and low pressure.) Tj T*`n() Tj T*`n(### Wireframe) Tj T*`n(```text) Tj T*`n(+--------------------------------------------------+) Tj T*`n(| SECTION HEADING                                  |) Tj T*`n(| A simple next step                               |) Tj T*`n(|                                                  |) Tj T*`n(| 1. Request your home value                       |) Tj T*`n(| 2. Review your options with Eric                 |) Tj T*`n(| 3. Move forward with the path that fits          |) Tj T*`n(+--------------------------------------------------+) Tj T*`n(```) Tj T*`n() Tj T*`n(### Content Requirements) Tj T*`n(- Three steps) Tj T*`nET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 2011 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(- Short intro line if needed) Tj T*`n() Tj T*`n(### Approval Check) Tj T*`n(- The process lowers anxiety) Tj T*`n(- The steps feel realistic and easy to follow) Tj T*`n() Tj T*`n(---) Tj T*`n() Tj T*`n(## Section 8: Direct Contact) Tj T*`n() Tj T*`n(### Purpose) Tj T*`n(Catch visitors who want immediate human help instead of a form.) Tj T*`n() Tj T*`n(### Wireframe) Tj T*`n(```text) Tj T*`n(+--------------------------------------------------+) Tj T*`n(| HEADING                                          |) Tj T*`n(| Need help right now?                             |) Tj T*`n(|                                                  |) Tj T*`n(| [ Call Eric ]     [ Text Eric ]                  |) Tj T*`n(|                                                  |) Tj T*`n(| No pressure. Just a helpful conversation.        |) Tj T*`n(+--------------------------------------------------+) Tj T*`n(```) Tj T*`n() Tj T*`n(### Content Requirements) Tj T*`n(- Strong direct-contact heading) Tj T*`n(- Call CTA) Tj T*`n(- Text CTA) Tj T*`n(- Reassurance line) Tj T*`n() Tj T*`n(### Approval Check) Tj T*`n(- Direct outreach feels easy) Tj T*`n(- This section supports urgency without pressure) Tj T*`n() Tj T*`n(---) Tj T*`n() Tj T*`n(## Section 9: Footer) Tj T*`n() Tj T*`n(### Purpose) Tj T*`n(Close the page with trust, contact details, and secondary navigation.) Tj T*`n() Tj T*`n(### Content Requirements) Tj T*`n(- Contact information) Tj T*`n(- Brokerage or legal details) Tj T*`n(- Navigation links) Tj T*`n(- IDX search link as secondary navigation) Tj T*`n() Tj T*`n(### Approval Check) Tj T*`n(- The footer feels complete and trustworthy) Tj T*`n(- Secondary navigation does not overpower the seller funnel) Tj T*`n() Tj T*`n(---) Tj T*`n() Tj T*`n(## Mobile Behavior Requirements) Tj T*`n(- Sticky call and text actions should remain visible) Tj T*`n(- Main headline and CTA should appear in the first screen) Tj T*`n(- Section spacing should feel clean and easy to scan) Tj T*`nET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 1346 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(- Buttons should be thumb-friendly) Tj T*`n(- No section should become too dense on small screens) Tj T*`n() Tj T*`n(## Visual Direction) Tj T*`n(- Clean) Tj T*`n(- Trustworthy) Tj T*`n(- Professional) Tj T*`n(- Conversion-oriented) Tj T*`n(- Mobile-first) Tj T*`n(- Warm and supportive, not flashy) Tj T*`n() Tj T*`n(## Content And Asset Checklist) Tj T*`n(- Eric headshot or approved photography) Tj T*`n(- Final testimonial copy) Tj T*`n(- Final contact information) Tj T*`n(- Brokerage and legal footer content) Tj T*`n(- Final language for offer highlights) Tj T*`n(- Decision on hero CTA format: short form or button only) Tj T*`n() Tj T*`n(## Open Decisions) Tj T*`n(- Should the hero use a short embedded form or only buttons?) Tj T*`n(- What exact wording should be used for the direct-sale option?) Tj T*`n(- Which testimonials should appear first?) Tj T*`n(- What brand colors and font direction should define the PDF mockup and later site) Tj T*`n(design?) Tj T*`n() Tj T*`n(## Approval Summary) Tj T*`n(This homepage should feel like a seller-focused help page first and a real estate brand) Tj T*`n(page second. The conversion path should be clear, the tone should be practical and) Tj T*`n(supportive, and every major section should reinforce trust, clarity, and a clear next) Tj T*`n(step.) Tj T*`nET
+endstream
+endobj
+17 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000009 00000 n `n0000000058 00000 n `n0000000154 00000 n `n0000000281 00000 n `n0000002449 00000 n `n0000002576 00000 n `n0000005382 00000 n `n0000005509 00000 n `n0000007670 00000 n `n0000007798 00000 n `n0000010206 00000 n `n0000010335 00000 n `n0000012488 00000 n `n0000012617 00000 n `n0000014681 00000 n `n0000014810 00000 n `n0000016209 00000 n `ntrailer
+<< /Size 18 /Root 1 0 R >>
+startxref
+16278
+%%EOF
