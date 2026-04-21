@@ -1,4 +1,4 @@
-# Eric Website Codex Package
+# eric-brown-realty-site
 
 This package contains the core planning and instruction files for building Eric's seller-focused real estate website.
 
@@ -16,6 +16,7 @@ This package contains the core planning and instruction files for building Eric'
 - OFFERS_AND_DIFFERENTIATORS.md
 - CRM_AND_INTEGRATIONS.md
 - CODEX_INSTRUCTIONS.md
+- BUILD_PLAN.md
 - .gitignore
 
 ## Project Summary
